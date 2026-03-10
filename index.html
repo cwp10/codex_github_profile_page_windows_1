@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="개발자 포트폴리오 샘플 - GitHub Pages 정적 사이트 템플릿">
+  <meta name="theme-color" content="#0f6fff">
+  <title>Developer Portfolio | GitHub Pages</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="페이지 상단으로 이동">
+        <span>DEV</span> PORTFOLIO
+      </a>
+      <nav aria-label="주요 섹션">
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section hero" id="hero">
+      <div class="container hero-content">
+        <p class="eyebrow">Developer Portfolio</p>
+        <h1 id="profile-name">홍길동</h1>
+        <p class="tagline" id="tagline-ko">문제 정의부터 배포까지 책임지는 풀스택 개발자입니다.</p>
+        <p class="tagline-en" id="tagline-en">I build reliable web products from architecture to shipping.</p>
+        <ul class="hero-meta" aria-label="기본 정보">
+          <li id="profile-location">Seoul, KR</li>
+          <li><a id="profile-email" href="mailto:hello@example.com">hello@example.com</a></li>
+          <li><a id="profile-github" href="https://github.com/username" target="_blank" rel="noreferrer noopener">github.com/username</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container narrow">
+        <h2>About</h2>
+        <p id="about-copy-ko">사용자 문제를 제품 가치로 바꾸는 데 집중합니다. 유지보수 가능한 구조와 명확한 인터페이스를 우선으로 설계합니다.</p>
+        <p id="about-copy-en">I focus on turning user problems into measurable product outcomes with clean architecture and maintainable code.</p>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Skills</h2>
+          <p>핵심 기술을 카테고리별로 정리했습니다.</p>
+        </div>
+        <div id="skills-grid" class="skills-grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Projects</h2>
+          <p>문제 해결 과정과 결과 중심으로 구성한 프로젝트입니다.</p>
+        </div>
+        <div id="projects-grid" class="projects-grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container contact-panel">
+        <h2>Contact</h2>
+        <p>협업 제안, 채용 문의는 아래 채널로 연락해 주세요.</p>
+        <div class="contact-links">
+          <a id="contact-email" class="button" href="mailto:hello@example.com">Email</a>
+          <a id="contact-github" class="button secondary" href="https://github.com/username" target="_blank" rel="noreferrer noopener">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="current-year"></span> <span id="footer-name">홍길동</span>. All rights reserved.</p>
+      <p id="last-updated"></p>
+    </div>
+  </footer>
+
+  <div id="status-message" class="status-message" role="status" aria-live="polite" aria-atomic="true"></div>
+
+  <noscript>
+    <div class="noscript-warning">JavaScript가 비활성화되어 데이터 렌더링이 제한됩니다.</div>
+  </noscript>
+</body>
+</html>
